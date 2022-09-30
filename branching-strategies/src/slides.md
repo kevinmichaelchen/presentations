@@ -178,6 +178,7 @@ There are 3 types of supporting branches:
 
 When `develop` basically resembles a new release, that's when the release branch
 is created.
+
 </div>
 
 [^1]: [Git Flow](https://nvie.com/posts/a-successful-git-branching-model/)
