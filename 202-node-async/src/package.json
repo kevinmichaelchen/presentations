@@ -1,0 +1,14 @@
+{
+  "name": "202-node-async",
+  "private": true,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build --base /2022/202-node-async/ --out ../../dist/2022/202-node-async",
+    "export": "slidev export --dark --with-clicks --output ../202-node-async.pdf"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.33.0",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*"
+  }
+}
