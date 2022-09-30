@@ -18,7 +18,7 @@ importers:
       pnpm: 7.2.1
       rimraf: 3.0.2
 
-  101-ofn-overview/src:
+  branching-strategies/src:
     specifiers:
       '@slidev/cli': ^0.33.0
       '@slidev/theme-default': '*'
@@ -28,7 +28,7 @@ importers:
       '@slidev/theme-default': 0.21.2
       slidev-theme-light-icons: 1.0.2
 
-  202-node-async/src:
+  branching-strategies/src:
     specifiers:
       '@slidev/cli': ^0.33.0
       '@slidev/theme-default': '*'
