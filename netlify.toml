@@ -14,6 +14,6 @@
 
 [[redirects]]
   from = "/"
-  to = "https://kchen.io"
+  to = "https://kchen.io/talks"
   status = 302
   force = true
