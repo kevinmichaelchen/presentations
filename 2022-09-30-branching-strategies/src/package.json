@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "dev": "slidev",
-    "build": "slidev build --base /2022-09-30/branching-strategies/ --out ../../dist/2022-09-30/branching-strategies",
+    "build": "slidev build --base /2022-09-30/branching-strategies/ --out ../../dist/2022-09-30-branching-strategies",
     "export": "slidev export --dark --with-clicks --output ../branching-strategies.pdf"
   },
   "dependencies": {
