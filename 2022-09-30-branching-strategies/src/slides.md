@@ -1,6 +1,6 @@
 ---
 hideInToc: true
-download: 'https://github.com/kevinmichaelchen/openfunction-talks/raw/main/branching-strategies/branching-strategies.pdf'
+download: 'https://github.com/kevinmichaelchen/presentations/raw/main/2022-09-30-branching-strategies/branching-strategies.pdf'
 # try also 'default' to start with a default theme
 # theme: seriph
 # random image from a curated Unsplash collection by Anthony
@@ -17,8 +17,6 @@ info: |
   ## Git Branching Strategies
 
   Moving safely and quickly as a team
-
-  Learn more at [OpenFunction](https://openfunction.dev/)
 # persist drawings in exports and build
 drawings:
   persist: false
@@ -35,11 +33,11 @@ Moving safely and quickly as a team
 </div>
 
 <div class="abs-br m-6 flex gap-2">
-  <a href="https://github.com/kevinmichaelchen/openfunction-talks/tree/main/branching-strategies" target="_blank" alt="GitHub"
+  <a href="https://github.com/kevinmichaelchen/presentations/tree/main/2022-09-30-branching-strategies" target="_blank" alt="GitHub"
     class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
     <carbon-logo-github />
   </a>
-  <a href="https://github.com/kevinmichaelchen/openfunction-talks/raw/main/branching-strategies/branching-strategies.pdf" target="_blank" alt="GitHub"
+  <a href="https://github.com/kevinmichaelchen/presentations/raw/main/2022-09-30-branching-strategies/branching-strategies.pdf" target="_blank" alt="GitHub"
     class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
     <carbon-download />
   </a>
