@@ -28,6 +28,16 @@ importers:
       '@slidev/theme-default': 0.21.2
       '@slidev/theme-seriph': 0.21.3
 
+  2022-10-03-buf/src:
+    specifiers:
+      '@slidev/cli': ^0.36.5
+      '@slidev/theme-default': '*'
+      '@slidev/theme-seriph': '*'
+    dependencies:
+      '@slidev/cli': 0.36.5_postcss@8.4.16
+      '@slidev/theme-default': 0.21.2
+      '@slidev/theme-seriph': 0.21.3
+
 packages:
 
   /@ampproject/remapping/2.2.0:
