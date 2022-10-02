@@ -8,8 +8,8 @@
   command = "npx pnpm i --store=node_modules/.pnpm-store && npx pnpm run build"
 
 [[redirects]]
-  from = "/2022/branching-strategies/*"
-  to = "/2022/branching-strategies/index.html"
+  from = "/2022-09-30/branching-strategies/*"
+  to = "/2022-09-30/branching-strategies/index.html"
   status = 200
 
 [[redirects]]
