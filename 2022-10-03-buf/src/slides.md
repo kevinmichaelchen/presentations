@@ -22,7 +22,7 @@ drawings:
   persist: false
 ---
 
-# Buf
+# I ❤️ Buf
 
 An easy choice
 
@@ -88,7 +88,7 @@ hideInToc: true
 layout: center
 ---
 
-# What is a Buf?
+# What is Buf?
 
 #### Buf's tagline is:
 
@@ -145,13 +145,18 @@ layout: center
 # 2019 - protoc is hard
 
 - [protoc](https://grpc.io/docs/protoc-installation/) is the Protobuf compilation tool.
-- It looks easy to work with.
 
 ```bash
 $ brew install protobuf
 $ protoc --version  # Ensure compiler version is 3+
 $ protoc -I=$SRC_DIR --go_out=$DST_DIR $SRC_DIR/addressbook.proto
 ```
+
+<v-click>
+
+- It looks easy to work with.
+
+</v-click>
 
 <v-click>
 
@@ -215,9 +220,16 @@ h1 {
 
 ---
 
-# Problems solved
+# Buf CLI
 
-- No more fiddling with protoc. We have the [CLI](https://buf.build/product/cli/) now.
+- Buf's [CLI](https://buf.build/product/cli/) takes care of compiling.
+- Just run `buf generate`.
+- No more fiddling with protoc.
+
+---
+
+# Problem solved: Sharing
+
 - The [Buf Schema Registry](https://buf.build/product/bsr/) (BSR) is a powerful tool.
   - No more copy/pasting protobufs. We can now pull dependencies.
   - We can also generate stubs [remotely](https://buf.build/product/bsr/#remote-library-generation).
@@ -226,6 +238,10 @@ h1 {
 ```bash
 $ go get go.buf.build/grpc/go/orgname/licenseapis
 ```
+
+---
+
+# Problem solved: Code Quality
 
 - We have [linting](https://docs.buf.build/tour/lint-your-api), [formatting](https://docs.buf.build/format/usage), and [breaking change detection](https://docs.buf.build/tour/detect-breaking-changes).
 - [Auto-generated docs](https://buf.build/product/bsr#generated-api-documentation) via BSR.
